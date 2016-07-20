@@ -1,3 +1,76 @@
 body {
-  background-color: blue;
+	background-image:url('../background-img.jpg');
+}
+.navbar {
+	min-height: 100px;
+	color: blue;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border:1px solid black;
+}
+.navbar-header button {
+	margin-top:15px;
+}
+.navbar-brand h1 {
+	margin-top:0px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	color:#000;
+}
+.navbar-brand h1:hover {
+	color: #3EA6BD;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top:10px;
+	text-align: center;
+	background-color: #fff;
+	font-family: 'Indie Flower', cursive;
+}
+#nav-list a:hover {
+	color:purple;
+	font-size:bold;
+}
+#nav-list a span {
+	font-size:1.8em;
+}
+#page-heading h2 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	background-color:#B0E3EB;
+	opacity: .85;
+	margin:20px 10px;
+}
+.row {
+	overflow: scroll;
+}
+.row h3 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+.row p {
+	padding: 15px;
+}
+.row a {
+	text-decoration: underline;
+}
+#chicken, #beef, #sushi {
+	border-radius: 1px;
+	border:1px solid #B0B4B5; 
+	margin: 20px 10px;
+}
+#chicken {
+	background-color: #CBF0A8;
+}
+#beef {
+	background-color: #FFEEA1;
+}
+#sushi {
+	background-color: #F0C0C0;
+}
+#chicken:hover, #beef:hover, #sushi:hover {
+	box-shadow: 0px 1px 5px 6px #E8E8E8;
 }
