@@ -1,5 +1,6 @@
 body {
 	background-image:url('../background-img.jpg');
+	margin:auto;
 }
 .navbar {
 	min-height: 100px;
